@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Automation">
+              <span class="suite-name border-passed">Automation</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Automation">
+                    <span>C:\Users\2165\Desktop\POMAutomation\New folder\POMAutomation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Automation">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Automation">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Automation">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Automation">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Automation">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Automation">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation" class="hide-methods passed suite-Automation"> (hide)</a> <!-- hide-methods passed suite-Automation -->
+                      <a href="#" panel-name="suite-Automation" class="show-methods passed suite-Automation"> (show)</a> <!-- show-methods passed suite-Automation -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Automation" title="com.pom.application.testscripts.LoginTest" hash-for-method="loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...)">loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation" class="panel Automation">
+          <div class="suite-Automation-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.pom.application.testscripts.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...)">
+                  </a> <!-- loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...) -->
+                  <span class="method-name">loginPage</span>
+                  <span class="parameters">({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialquiz=test, t268userid=admin7455, trainingCode=BVTCD, editcurriculumcode=AutomationTestCode, validateadminorglevel=Organization Administrator, userid=bvt, ddlRecurringAssignmentType=Recurring, curriculumtitle=CurriculumTitle1141, compDashboardAllOrg=Compliance Dashboard - All Organizations, trainingcodesearch=BVTCD, password=bvt, curriculumtextvalidate=The curriculum has been updated successfully., quizquestion=Sky Color is blue?, myEventLogReports= My Event Log Reports, quserid=mhh, contentUpgrades=Content Upgrades, complainceLoginUrl=compliancewire.com/CW3/Standard/Authentication/LogIn, editcdtrainingcode=AutomationCDTestCode, NavigateApplicationSettingsService=/ENPlatformApplicationSettingsWCF/ApplicationSettingsService.svc,ApplicationSettingsService Service, scormddllang=English, lastname=AutoLastName1951, field=User Id, SearchUserName=BVT, searchUserforCreditHistory=sria, startDate=1/11/2016, usergroupselection=User Group, trainingStatus=Training Status, selectsearchtypes=Curriculum, quizvalidans=Blue, validatetimezone=(UTC-:) Eastern Time (US & Canada)504, companycode=autoedu, ddlLang=English, validatecurrstatus=Effective, selectLanguagetext=Sauvegarder, companySnapshots=Company Snapshot, minorUpgrades=Minor Upgrades, curriculumdesc=Test, cdquizmaxattempts=3, majorUpgrades=Major Upgrades, formsddllang=English, curriculumReport=Curriculum Report, newUserIdForProxy=ProxyUserId1034, graphUsersAndCompByOrg=Graph Users and Completions by Organization, custexamddllang=English, ddlonetimeassignmenttype=One-Time, grpName=Automation Test Company1089, formscode=forms1125, autoReportName=ReportName1211, custexamcode=CE1072, cBTActivityReport=CBT Activity Report, minpassingscoretext=30, grpdescription=Description of Automation Test Company1089, quizreponsevalidate=Quiz question updated successfully., formstitle=formsTitle1125, NewUserLastName=ResetPwdUserLastName1028, trainingTypeLaunchReport=Training Type Launch Report, searchchoice=is, newEventLogsReports= New Event Log Reports, defaultlanguage=Anglias, courseTitle=CDTitle1322, clickbrowse=src/test/resources/AgileProcess.pdf, profileconfirmpassword=Abc123, proxyEndDate=01/05/2017, custexamtitle=CETitle1072, editcurrriculumtitle=AutomationTestTitle, answertextbox=BVT, newUserLastNameForProxy=ProxyUserLastName1034, NewUserId=ResetUserId1028, qacomlianceLogin=https://qa.compliancewire.com/CW3/Standard/Authentication/LogIn, scormchoosefiletouploadlink=src/test/resources/FCPA_Complete.zip, userQualificationSummaryReport=User Qualification Summary Report, selectadminsecurityrole=Organization Administrator, secondAnswer=xyz, newuserid=AutoUserId1951, cdquiztimelimit=1, addproxymsg=No Proxy Found for this User, emailscheduledate=Monday, cBTCompAndUsers=CBT Completions and Users, proxyStartDate=01/05/2017, condition=equals to, qpassword=mhh, ilctitle=ilcTitle1072, curriculumcode=CurriculumCode1141, reportFolder=BVT, scormcoursecode=ScormCode1019, additionalReports= Additional Reports, reportName=BVT_Dup, courseCode=CD1322, eventLogsReports=Event Log Report, changeLog= Change Log, selecttrainingitemcurr=0, loginTrends=Login Trends, reasonForCreditRequest=Equivalent External Training, courseownername=BVT, baseurl=.compliancewire.com/CW3/Standard/Authentication/LogIn, featureUpdates=Feature Updates, street=5th main, ilccode=ilc1081, scheduleDate=Monday, validatecredithistoryuserid=BVT, value=BVT, selectLanguage=fff, newUserFirstName=ResetPwdUserFirstName1028, addhirearchiyapi=AutoTestApi2086, correctiveUpgrades=Corrective Upgrades, creditRequestCourseName=BVTTITitle20011703301333, profilepassword=Abc123, thirdAnswer=pqr, firstAnswer=abc, ilcddllang=English, newUserFirstNameForProxy=ProxyUserFirstName1034, scormcoursetitle=ScormTitle1019, curriculumselection=Curriculum, t268userpwd=123a, reportDescription=BVT_Duplicate_Description, completionDate=1/25/2017, qcompanycode=edu, searchUserIdForLogReport=BVT, username=AutoFirtsName1951, curriculumhistorypagevalidation=View Curriculum: History})</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation-class-passed -->
+        </div> <!-- panel Automation -->
+        <div panel-name="test-xml-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\2165\Desktop\POMAutomation\New folder\POMAutomation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.mindteck.pom.util.AddCheckin&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Use Case 1a: Login to  Mercury Tours page&quot;&gt;
+    &lt;parameter name=&quot;BrowserName&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;loginPage&quot; value=&quot;SELECT * FROM apptestdb.app_test_data&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.pom.application.testscripts.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginPage&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.pom.application.testscripts.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Use Case 1a: Login to  Mercury Tours page --&gt;
+&lt;/suite&gt; &lt;!-- Automation --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Use Case 1a: Login to  Mercury Tours page (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation');
+function tableData_Automation() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginPage')
+data.setCell(0, 2, 'com.pom.application.testscripts.LoginTest')
+data.setCell(0, 3, 25643);
+window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
+              <div id="times-div-Automation">
+              </div> <!-- times-div-Automation -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href=../test-output/C:\Users\2165\Desktop\POMAutomation\New folder\POMAutomation/test-output/Reports/Automation-Report19-Sep-2017 04-52-37/19-Sep-2017-04-52-55.jpg target='_blank' >opening the Url is sucessful</a></span>
+                <span class="reporter-method-output"><br></br></span>
+                <span class="reporter-method-output"><a href=../test-output/C:\Users\2165\Desktop\POMAutomation\New folder\POMAutomation/test-output/Reports/Automation-Report19-Sep-2017 04-52-37/19-Sep-2017-04-53-02.jpg target='_blank' >login Mercury Page sucessful</a></span>
+                <span class="reporter-method-output"><br></br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.pom.application.testscripts.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">initateExtentManager</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginPage({cdquizminpassscore=30, managementReports= Management Reports, selectfilter=No Date Range, initialqu...)</span>
+                <span class="method-start">432 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=loginPage status=SUCCESS method=LoginTest.loginPage(java.util.Map)[pri:1, instance:...)</span>
+                <span class="method-start">26076 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tear</span>
+                <span class="method-start">26078 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
